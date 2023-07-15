@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "client": "npm run start --prefix client",
-    "sacred": "concurrently \"npm run server\" \"cd client && npm start\""
+    "sacred": "concurrently \"npm start\" \"cd client && npm start\""
   },
   "author": "",
   "license": "ISC",
