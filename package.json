@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm run start --prefix client",
-    "sacred": "concurrently \"npm start\" \"cd client && npm start\""
+    "sacred": "concurrently \"npm start\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
